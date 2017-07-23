@@ -103,7 +103,23 @@ p {
   display:inline-block;
   visibility:hidden;
   box-sizing: border-box;
-}
+  position:static;
+  position:relative;
+  position:absolute;
+  left:0px;
+  top:0px;
+  position:fixed;
+  z-index: 1000;
+  float:left;
+  clear: left;
+  background-image:url(" ");
+  background-repeat:no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  background-size: cover;
+  background-image: -webkit-linear-gradient(#FFD194 , #BC1324);background-attachment: fixed;
+
+  }
 
 <!-- Include font in header -->
 <link href="https://fonts.googleapis.com/css?family=Roboto:100" type="text/css" rel="stylesheet" >
@@ -124,6 +140,24 @@ p {
   text-align:center;
 }
 
+<!-- table -->
+<table>
+  <tbody>
+    <thead>
+	    <th>Company Name</th>
+	    <th>Number of Items to Ship</th>
+	    <th>Next Action</th>
+    </thead>
+    <tr>
+      <td colspan="2">Adam's Greenworks</td>
+       <td rowspan="1">14</td>
+       <td rowspan="1">Package Items</td>
+    </tr>
+    <tfoot>
+    	<tr>ss</tr>
+     </tfoot>
+  </tbody>
+</table>
 
 
 
